@@ -1,0 +1,18 @@
+---
+name: Bar do 40
+location: Prédio 40 - Térreo
+tags:
+  - lancheria
+  - restaurante
+
+menu:
+  - name: Espresso - Pequeno
+    price: 5
+    tags:
+      - café
+      - espresso
+  - name: Espresso - Médio
+    price: 6
+    tags:
+      - café
+      - espresso

@@ -1,0 +1,16 @@
+---
+name: Z Café
+location: Prédio 99A - Térreo
+tags:
+  - cafeteria
+menu:
+  - name: Espresso - Pequeno
+    price: 5.5
+    tags:
+      - café
+      - espresso
+  - name: Espresso - Médio
+    price: 7.5
+    tags:
+      - café
+      - espresso
