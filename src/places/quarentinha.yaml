@@ -5,7 +5,7 @@ tags:
   - lancheria
   - restaurante
 
-menu:
+permanentMenu:
   - name: Espresso - Pequeno
     price: 5
     tags:

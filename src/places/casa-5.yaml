@@ -1,0 +1,42 @@
+---
+name: Casa 5
+location: Prédio 5 - Térreo
+tags:
+  - lancheria
+  - prato feito
+  - pequeno
+  - mesas externas
+  - mesas internas
+  - bom para ir sozinho
+  - bom para ir em dupla
+  - bom para ir em até 4 pessoas
+  - opções vegetarianas
+
+permanentMenu:
+  - name: Prato Fitness
+    price: 20.9
+    description: Bife de frango, arroz integral, batata doce, legumes refogados, alface, tomate e cenoura.
+    tags:
+      - fit
+      - prato feito
+  - name: Prato Vegano
+    price: 20.9
+    description: Bife de soja, molho de tomate, arroz, feijão, legumes refogados, alface, tomate e cenoura.
+    tags:
+      - vegetariano
+      - prato feito
+  - name: Prato Light
+    price: 20.9
+    description: Filé de peixe (merluza argentina), arroz integral, legumes refogados, alface, tomate, cenoura e limão.
+    tags:
+      - vegetariano
+      - prato feito
+
+variableMenu:
+  name: Pastel de Carne Frito
+    price: 5.5
+    ingredients:
+      - carne
+      - ovo
+    tags:
+      - fritura

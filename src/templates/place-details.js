@@ -7,10 +7,13 @@ export default ({ data }) => {
   return (
     <Layout>
       <div>
-        123132
         <h1>{place.name}</h1>
         <div>{place.location}</div>
-        asfasfdasdf
+        <ul>
+          {place.tags.map(tag => (
+            <li>{tag}</li>
+          ))}
+        </ul>
       </div>
     </Layout>
   )
@@ -18,13 +21,13 @@ export default ({ data }) => {
 
 export const query = graphql`
   query($slug: String!) {
-    placesYaml(fields: {slug: {eq: $slug}}) {
+    placesYaml(fields: { slug: { eq: $slug } }) {
       tags
       name
       location
       fields {
         slug
       }
-    } 
+    }
   }
 `

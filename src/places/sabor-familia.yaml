@@ -1,12 +1,19 @@
 ---
-name: Z Café
-location: Prédio 99A - Térreo
+name: Sabor Família
+location: Embaixo do RU
 tags:
-  - cafeteria
+  - restaurante
+  - buffet
+  - gigante
   - mesas internas
   - bom para ir sozinho
   - bom para ir em dupla
-  - takeaway
+  - bom para ir em até 4 pessoas
+  - bom para ir em grupo grande
+  - opções vegetarianas
+
+beverages:
+  -
 
 permanentMenu:
   - name: Espresso - Pequeno
@@ -19,3 +26,7 @@ permanentMenu:
     tags:
       - café
       - espresso
+
+
+candies:
+  - name: Alfajor Odara
