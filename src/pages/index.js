@@ -8,12 +8,10 @@ import SEO from "../components/seo"
 const ListItem = props => {
   const { places } = props
 
-  return places.map((place) => (
+  return places.map(place => (
     <div className="column" key={place.id}>
       <h2 className="is-size-2">
-        <Link to={`${place.fields.slug}`}>
-          {place.name}
-        </Link>
+        <Link to={`${place.fields.slug}`}>{place.name}</Link>
       </h2>
       <p>Localização: {place.location}</p>
       <p>Tipo de lugar: {place.tags}</p>

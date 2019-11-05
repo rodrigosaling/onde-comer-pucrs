@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "onde-comer-pucrs",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Uma lista de lugares e cardápios dos restaurantes e lancherias da PUCRS.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Rodrigo Saling",
   "dependencies": {
     "bulma": "^0.7.5",
     "gatsby": "^2.15.28",
@@ -40,9 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/rodrigosaling/pmde-comer-pucrs"
   }
 }
