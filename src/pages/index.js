@@ -2,7 +2,6 @@ import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const ListItem = props => {
@@ -39,15 +38,9 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <h1 className="is-size-1">Hi people</h1>
       <div className="columns">
         <ListItem places={data.allPlacesYaml.nodes} />
       </div>
-
-      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-        <Image />
-      </div>
-      <Link to="/page-2/">Go to page 2</Link>
     </Layout>
   )
 }
